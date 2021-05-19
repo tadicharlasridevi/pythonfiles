@@ -1,0 +1,15 @@
+enter first number10
+enter second number20
+enter third number30
+total of three numbers
+60
+average of three numbers
+20.0
+output:
+>>> enter first number10
+enter second number20
+enter third number30
+total of three numbers
+60
+average of three numbers
+20.0
