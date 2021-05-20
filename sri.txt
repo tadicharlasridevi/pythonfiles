@@ -1,0 +1,19 @@
+#print the sum and average of three numbers
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+c=int(input("enter third number"))
+total=a+b+c
+average=total/3
+print("total of three numbers")
+print(total)
+print("average of three numbers")
+print(average)
+output:
+enter first number10
+enter second number20
+enter third number30
+total of three numbers
+60
+average of three numbers
+20.0
+>>> 
