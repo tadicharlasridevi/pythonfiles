@@ -1,0 +1,15 @@
+#vote
+name=input("enter input")
+age=int(input("enter age"))
+if (age>=18):
+        print("hai...",name)
+        print("eligible for vote")
+else:
+        print("im sorry....",name)
+        print("not eligible for vote",age)
+
+ =
+enter namesree
+enter age19
+haii... sree
+you are eligible
