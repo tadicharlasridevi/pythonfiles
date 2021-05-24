@@ -1,0 +1,30 @@
+#discount
+bill=int(input('enter bill'))
+if(bill>=1000 and bill<=2000):
+    discount=bill*0.1
+    print('discount on the bill is',discount)
+    paidbill=bill-discount
+    print('paid bill is',paidbill)
+elif (bill>2000 and bill<=3000):
+    discount=bill*0.2
+    print('discount on the bill is',discount)
+    paidbill=bill-discount
+    print('paid bill is',paidbill)
+elif(bill>3000 and bill<=5000):
+    discount=bill*0.3
+    print('discount on the bill',discount)
+    paidbill=bill-discount
+    print('paid bill is',paidbill)
+else:
+    discount=bill*0.4
+    print('discount on the bill',discount)
+    paidbill=bill-discount
+    print('paid bill is',paidbill)
+output:1
+enter bill1000
+discount on the bill is 100.0
+paid bill is 900.0
+oytput2:
+enter bill2000
+discount on the bill is 200.0
+paid bill is 1800.0
