@@ -1,0 +1,13 @@
+#while
+start_value=int(input('enter start_value'))
+end_value=int(input('enter end_value'))
+step_count=int(input('enter step_count'))
+while(start_value<end_value):
+ print(start_value,end =" ")
+ start_value=start_value+1
+output:
+enter start_value10
+enter end_value20
+enter step_count1
+10 11 12 13 14 15 16 17 18 19 20 
+>>> 
