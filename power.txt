@@ -1,0 +1,13 @@
+#last digit
+a=int(input("enter number"))
+b=int(input("enter number"))
+c=a**b
+print('the value is',c)
+last_digit=c%10
+print('the last digit is',last_digit)
+
+output:
+enter number5
+enter number4
+the value is 625
+the last digit is 5
